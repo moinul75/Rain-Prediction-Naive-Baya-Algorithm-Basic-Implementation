@@ -6,10 +6,10 @@
         <h1> WEATHER DETECTION </h1><br>
         
         <form method="POST", action="{{url_for('index')}}">
-           <b> Overcast value :  <input type="text", name='a', placeholder="0.overcast 1.rain 2.sunny"> <br><br>
-            Temparature value :  <input type="text", name='b', placeholder="0.Cold 1.Hot 3.Mild"> <br><br>
-            Humidity value :  <input type="text", name='c', placeholder="0.High 1.Normal"> <br><br>
-            Wind value : <input type="text", name='d', placeholder="0.Strong 1.Weak"> <br><br><br></b>
+           <b> Overcast value :  <input type="text", name='a', placeholder="0.overcast 1.rain 2.sunny" required> <br><br>
+            Temparature value :  <input type="text", name='b', placeholder="0.Cold 1.Hot 3.Mild" required> <br><br>
+            Humidity value :  <input type="text", name='c', placeholder="0.High 1.Normal" required> <br><br>
+            Wind value : <input type="text", name='d', placeholder="0.Strong 1.Weak" required> <br><br><br></b>
             <input type="submit" , value='predict' >
         </form>
 
